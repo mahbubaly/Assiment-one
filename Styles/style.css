@@ -9,12 +9,18 @@
     padding: 21px 26px;
     font-weight: 600;
     font-size: 20px;
-    color: #6522b6
+    color: #6522b6;
+    border-radius: 5px;
+    border: 0;
 }
 
 .primary-colour {
     color: orange;
 
+}
+
+.right-sin {
+    color: #05ffff;
 }
 
 /* Header and nav section */
@@ -59,7 +65,7 @@ main {}
 .section {
     display: flex;
     padding-top: 131px;
-    padding-right: 322px;
+    padding-right: 300px;
     padding-left: 206px;
     padding-bottom: 130px;
     align-items: center;
@@ -70,7 +76,7 @@ main {}
 
 .section-content {
     margin-left: 30px;
-    
+
 }
 
 .section-title {
@@ -86,4 +92,77 @@ main {}
     font-weight: 400;
     font-size: 16px;
     color: #444343;
+}
+
+/*  MY Plan */
+.plan-titel {
+    text-align: center;
+}
+
+.plan-content {
+    padding-left: 230px;
+    padding-right: 230px;
+    display: flex;
+    gap: 86px;
+    margin-top: 50px;
+}
+
+.content-name {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+}
+
+.content-description {
+    margin-top: 20px;
+    color: #737272;
+}
+
+/* Using gradiant */
+
+.grid-content {
+    margin-top: 130px;
+    padding-left: 230px;
+    padding-right: 230px;
+
+
+
+}
+
+.gradian-use {
+    background-image: linear-gradient(to left, rgba(125, 207, 211, 0.52), rgba(169, 230, 201, 0.73)), url('../images/watch.png');
+    width: 900px;
+    height: 250px;
+    border: 0px;
+
+}
+
+.gra-title {
+    padding-top: 65px;
+    padding-left: 63px;
+}
+
+h2 {
+    margin-bottom: 17px;
+    color: #FFFFFF;
+    
+}
+/* form  */
+.form{
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+    height: 250px;
+    background-color: rgba(238, 239, 229, 0.963);
+    margin-top: 130px;
+    border-radius: 8px;
+
+}
+.form-content{
+    
+    margin-top: 50px;
+}
+.form{
+    
 }
