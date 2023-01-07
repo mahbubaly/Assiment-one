@@ -26,8 +26,6 @@
 /* Header and nav section */
 .header {
     background-image: url(../images/banner/banner3.png);
-
-
     background-repeat: no-repeat;
     width: 1400px;
     height: 808px;
@@ -63,12 +61,14 @@ nav {
 main {}
 
 .section {
+    margin-top: 10px;
     display: flex;
     padding-top: 131px;
     padding-right: 200px;
     padding-left: 200px;
     padding-bottom: 130px;
     align-items: center;
+    
 
 
 
