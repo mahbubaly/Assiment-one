@@ -29,7 +29,7 @@
 
 
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 1400px;
     height: 808px;
 }
 
@@ -134,7 +134,7 @@ main {}
 }
 
 .gradian-use {
-    background-image: linear-gradient(to left, rgba(125, 207, 211, 0.52), rgba(169, 230, 201, 0.73)), url('../images/watch.png');
+    background-image: linear-gradient(to right, rgba(241, 9, 9, 0.52), rgba(169, 230, 201, 0.73)), url('../images/watch.png');
     width: 850px;
     height: 250px;
     border: 0px;
@@ -158,7 +158,7 @@ main {}
     margin-top: 130px;
     background-color: rgb(0, 0, 0);
     padding-top: 130px;
-    padding-left: 230px;
+    padding-left: 180px;
     gap: 100px;
     
     
