@@ -132,7 +132,7 @@ main {}
 
 .gradian-use {
     background-image: linear-gradient(to left, rgba(125, 207, 211, 0.52), rgba(169, 230, 201, 0.73)), url('../images/watch.png');
-    width: 900px;
+    width: 850px;
     height: 250px;
     border: 0px;
 
@@ -143,26 +143,40 @@ main {}
     padding-left: 63px;
 }
 
-h2 {
+.sub-title {
     margin-bottom: 17px;
     color: #FFFFFF;
-    
-}
-/* form  */
-.form{
-    margin: 0 auto;
-    text-align: center;
-    width: 900px;
-    height: 250px;
-    background-color: rgba(238, 239, 229, 0.963);
-    margin-top: 130px;
-    border-radius: 8px;
 
 }
-.form-content{
+
+/* Footer */
+.footer{
+    display: flex;
+    margin-top: 130px;
+    background-color: rgb(0, 0, 0);
+    padding-top:130px;
+    padding-left: 230px;
+    gap:100px;
     
-    margin-top: 50px;
 }
-.form{
+.future-footer{
+    color: #F8F8F8;
+    width: 1600px;
+    height: 808px;
     
+
+}
+
+.future-title{
+    color: #F8F8F8;
+}
+.future-description{
+    color: #F8F8F8;
+}
+.image-container{
+
+}
+.subcribe-footer{
+    padding-right: 230px;
+
 }
