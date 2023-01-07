@@ -65,8 +65,8 @@ main {}
 .section {
     display: flex;
     padding-top: 131px;
-    padding-right: 300px;
-    padding-left: 206px;
+    padding-right: 200px;
+    padding-left: 200px;
     padding-bottom: 130px;
     align-items: center;
 
