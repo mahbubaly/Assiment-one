@@ -54,12 +54,12 @@ nav {
 }
 
 .nav-description {
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 32px;
     font-size: 16px;
     line-height: 26px;
 }
-
+/* Main  */
 main {}
 
 .section {
@@ -92,6 +92,9 @@ main {}
     font-weight: 400;
     font-size: 16px;
     color: #444343;
+}
+.sub-description{
+    line-height: 30px;
 }
 
 /*  MY Plan */
@@ -150,33 +153,70 @@ main {}
 }
 
 /* Footer */
-.footer{
+.footer {
     display: flex;
     margin-top: 130px;
     background-color: rgb(0, 0, 0);
-    padding-top:130px;
+    padding-top: 130px;
     padding-left: 230px;
-    gap:100px;
+    gap: 100px;
+    
     
 }
-.future-footer{
+
+.future-footer {
     color: #F8F8F8;
     width: 1600px;
-    height: 808px;
-    
+    Height: 500px;
+
 
 }
 
-.future-title{
+.future-title {
     color: #F8F8F8;
+    margin-bottom: 16px;
 }
-.future-description{
+
+.future-description {
     color: #F8F8F8;
+    margin-bottom: 24px;
 }
-.image-container{
+
+.email-part {
+    margin-bottom: 16px;
 
 }
-.subcribe-footer{
+
+.phone-part {
+    margin-bottom: 32px;
+
+
+}
+
+.image-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.subcribe-footer {
     padding-right: 230px;
 
 }
+/* Subcribe part */
+.sub-title{
+    margin-bottom: 31px;
+    
+}
+input{
+    
+   padding: 20px;
+   border-radius: 5px;
+   border: 1px solid #FFFFFF ;
+   background-color: #151414;
+  margin-bottom:16px ;
+   
+
+}
+
+
