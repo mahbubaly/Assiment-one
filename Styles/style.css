@@ -29,6 +29,7 @@
     background-repeat: no-repeat;
     width: 1400px;
     height: 808px;
+    overflow-x: hidden;
 }
 
 nav {
@@ -242,6 +243,7 @@ main {}
 input{
     
    padding: 20px;
+   width: 100%;
    border-radius: 5px;
    border: 1px solid #FFFFFF ;
    background-color: #151414;
